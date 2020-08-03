@@ -1,3 +1,6 @@
+#                  ******************Author: -> Nanthakumar J J****************** 
+
+
 '''THIS CODE IS CREATED BY NANTHAKUMAR J J U CAN USE THIS CODE AND MODIFY BUT DONT FORGOT TO GIVE CREDITS TO https://jjnanthakumar.github.io/'''
 '''#FEEL FREE TO CONTACT ME IF ANY ERROR OCCURS#'''
 #HAVE FUN
@@ -81,3 +84,4 @@ def flames(n1,n2):
 
 
         
+#                  ******************Author: -> Nanthakumar J J******************
