@@ -17,10 +17,14 @@ def count(n1,n2):
            raise ValueError
     except ValueError:
         return "Oops! Your Input Must be string.. Try again!!"
-    n1=n1.split()
-    n2=n2.split()
-    name1=[i for i in n1 if len(i)>1]
-    name2=[i for i in n2 if len(i)>1]
+    if '.' in n1 or '.' in n2:
+        name1 = n1.split('.')
+        name2 = n2.split('.')
+    else:
+        name1 = n1.split()
+        name2 = n2.split()
+    name1=[i for i in name1 if len(i)>1]
+    name2=[i for i in name2 if len(i)>1]
     if len(name1)<1 or len(name2)<1:
         sys.exit("Please provide Valid names")
     n1=''.join(name1)
