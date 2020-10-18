@@ -61,7 +61,7 @@ def flames(n1, n2):
     dic = {'F': "Friends", 'L': "Love", 'A': "Affection", 'M': "Marriage", 'E': "Enemy", 'S': "Sister"}
     lst = list(dic.keys())
     for i in range(6, 0, -1):
-        r = res % i
+        r = c % i
         if len(lst) == 1 or len(lst) == 0:
             break
         lst.pop(r - 1)
